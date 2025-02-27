@@ -1,3 +1,16 @@
+# 1.2.1
+
+## Fixed
+
+- Addressed build failures on Flutter 3.27.1.
+- Resolved video playback and recording issues on Huawei P30.
+
+## Optimized
+
+- Refined the UI for group notification display.
+- Improved the layout of the read receipt page.
+- Enhanced text wrapping and truncation for lengthy tip messages.
+
 # 1.2.0
 
 ## Breaking Changes

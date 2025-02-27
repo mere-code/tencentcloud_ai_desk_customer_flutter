@@ -220,6 +220,9 @@ class _TencentCloudCustomerMessageContainerState extends TIMUIKitState<TencentCl
                   isShowReadingStatus: widget.config.useMessageReadReceipt ?? false,
                   stickerPanelConfig: StickerPanelConfig(
                     useTencentCloudChatStickerPackage: true,
+                    useQQStickerPackage: false,
+                    useTencentCloudChatStickerPackageOldKeys: false,
+                    unicodeEmojiList: [],
                     customStickerPackages: [],
                   ),
                 ),
