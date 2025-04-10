@@ -229,7 +229,9 @@ class _TIMUIKitTextFieldLayoutNarrowState extends TIMUIKitState<TIMUIKitTextFiel
                 widget.onEmojiSubmitted();
                 setSendButton();
               },
-              sendFaceMsg: widget.onCustomEmojiFaceSubmitted,
+              sendFaceMsg: (_, __, ___){
+                widget.onCustomEmojiFaceSubmitted(_, __);
+              },
               deleteText: () {
                 widget.backSpaceText();
                 setSendButton();
